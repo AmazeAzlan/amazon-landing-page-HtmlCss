@@ -211,7 +211,7 @@ a {
 }
 
 .flag {
-  background-image: url(/assets/flag.webp);
+  background-image: url('../assets/flag.webp');
   background-size: contain;
   width: 1.32rem;
   height: 100%;
