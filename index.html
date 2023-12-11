@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon-Clone</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="assets/Amazon_icon.png" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="navbar flex">
+
+      <!-- left side nav -->
+      <div class="nav-left flex">
+        <div class="nav-logo border">
+          <div class="logo pointer"></div>
+        </div>
+
+        <div class="nav-address flex border pointer">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="deliver-address flex">
+            <p class="small-nav-text">Deliver to</p>
+            <p class="bold-nav-text">India</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- middle-nav -->
+      <div class="nav-middle flex">
+        <select class="search-select pointer">
+          <option value="">All</option>
+        </select>
+        <input class="search-input" type="text" placeholder="Search Amazon">
+        <div class="search-icon flex pointer">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <!-- right-nav -->
+      <div class="nav-right flex">
+
+        <div class="country-container flex border pointer">
+          <div class="nav-country flex">
+            <p class="flag"></p>
+            <p class="lang">EN</p>
+            <i class="fa-solid fa-sort-down"></i>
+          </div>
+        </div>
+
+        <div class="nav-signin flex border pointer">
+            <p class="small-nav-text" id="signin-color">Hello, Sign in</p>
+            <div class="flex">
+              <p class="bold-nav-text" id="right-nav-bottom-text">Account & Lists</p>
+              <i class="fa-solid fa-sort-down"></i>
+            </div>
+        </div>
+
+        <div class="nav-return flex border pointer">
+          <p class="small-nav-text" id="return-color">Returns</p>
+          <p class="bold-nav-text" id="right-nav-bottom-text">&amp; Orders</p>
+        </div>
+
+        <div class="nav-cart flex border pointer">
+          <i class="fa-solid fa-cart-shopping" id="cart-relative">
+            <span>0</span>
+          </i>
+          <p class="bold-nav-text" id="right-nav-bottom-text">Cart</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- panel -->
+    <div class="panel flex">
+      <div class="pannel-all flex pointer border">
+        <i class="fa-solid fa-bars"></i>
+        All
+      </div>
+
+      <div class="panel-options flex">
+        <p class="pointer border" id="panel-choices">Today's Deals</p>
+        <p class="pointer border" id="panel-choices">Registry</p>
+        <p class="pointer border" id="panel-choices">Customer Service</p>
+        <p class="pointer border" id="panel-choices">Gift Cards</p>
+        <p class="pointer border" id="panel-choices">Sell</p>
+      </div>
+
+      <div class="panel-deals border">
+        Shop deals in Electronics
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-section flex">
+    <div class="hero-msg flex">
+      <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://amazon.in">Click here to go to amazon.in</a></p>
+    </div>
+  </section>
+
+
+  <!-- shopping section -->
+
+  <section class="shopping-section container flex">
+    <div class="box-1 box">
+      <h2 class="box-heading">
+        Gaming accessories
+      </h2>
+      <div class="multi-products flex">
+        <div class="multi-style">
+          <img src="assets/multi-img/nintendo-3.png" alt="jeans">
+          <div class="multi-small-text">
+            Nintendo
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/keyboards-3.jpg" alt="tops">
+          <div class="multi-small-text">
+            Keyboards
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/chair-3.jpg" alt="dress">
+          <div class="multi-small-text">
+            Chairs
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/controller-3.png" alt="shoes">
+          <div class="multi-small-text">
+            Controllers
+          </div>
+        </div>
+      </div>
+      <a href="#" class="box-footer">
+        See more
+      </a>
+    </div>
+
+    <div class="box-2 box">
+      <h2 class="box-heading">
+        Toys under 2000
+      </h2>
+      <a href="#" class="box-content">
+        <img src="assets/toys.jpg" alt="toys">
+      </a>
+      <a href="#" class="box-footer">
+        Shop now
+      </a>
+    </div>
+
+    <div class="box-3 box">
+      <h2 class="box-heading">
+        Deals in PCs
+      </h2>
+      <a href="#" class="box-content">
+        <img src="assets/pc.jpg" alt="PCs">
+      </a>
+      <a href="#" class="box-footer">
+        Shop now
+      </a>
+    </div>
+
+    <div class="box-4 box">
+      <h2 class="box-heading">
+        Refresh your space
+      </h2>
+      <div class="multi-products flex">
+        <div class="multi-style">
+          <img src="assets/multi-img/dining-2.jpg" alt="dining">
+          <div class="multi-small-text">
+            Dining
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/home-2.jpg" alt="home">
+          <div class="multi-small-text">
+            Home
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/kitchen-2.jpg" alt="kitchen">
+          <div class="multi-small-text">
+            Kitchen
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/health&beauty-2.jpg" alt="health care">
+          <div class="multi-small-text">
+            Health and Beauty
+          </div>
+        </div>
+      </div>
+      <a href="#" class="box-footer">
+        See more
+      </a>
+    </div>
+
+    <div class="box-5 box">
+      <h2 class="box-heading">
+        Top Deals
+      </h2>
+      <a href="#" class="box-content">
+        <img src="assets/top-deals.jpg" style="object-fit: none;" alt="top deals">
+        <p>
+          TheraICE Migraine Relief Caps, Thermal Compression Sleeves and more..
+        </p>
+        <div class="offer">
+          <p id="offer-first">Up to 25% off</p>
+          <p id="offer-second">Top deal</p>
+        </div>
+      </a>
+      <a href="#" class="box-footer">
+        See all deals
+      </a>
+    </div>
+
+    <div class="box-6 box">
+      <h2 class="box-heading">
+        Shop deals in Fashion
+      </h2>
+      <div class="multi-products flex">
+        <div class="multi-style">
+          <img src="assets/multi-img/jeans-1.jpg" alt="jeans">
+          <div class="multi-small-text">
+            Jeans under 2000
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/tops-1.jpg" alt="tops">
+          <div class="multi-small-text">
+            Tops under 1000
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/dresses-1.jpg" alt="dress">
+          <div class="multi-small-text">
+            Dresses under 3000
+          </div>
+        </div>
+        <div class="multi-style">
+          <img src="assets/multi-img/shoes-1.jpg" alt="shoes">
+          <div class="multi-small-text">
+            Shoes under 3500
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="box-footer">
+        See all deals
+      </a>
+    </div>
+
+    <div class="box-7 box">
+      <h2 class="box-heading">
+        Home décor under 5000
+      </h2>
+      <a href="#" class="box-content">
+        <img src="assets/home-decor.jpg" alt="home decor">
+      </a>
+      <a href="#" class="box-footer">
+        Shop now
+      </a>
+    </div>
+
+    <div class="box-8 box">
+      <h2 class="box-heading">
+        Beauty steals under 2000
+      </h2>
+      <a href="#" class="box-content">
+        <img src="assets/beauty.jpg" alt="beauty">
+      </a>
+      <a href="#" class="box-footer">
+        Shop now
+      </a>
+    </div>
+  </section>
+
+  <div class="cta flex">
+    <div class="cta-border flex">
+      <div class="cta-header">
+        See personalized recommendations
+      </div>
+      <button class="cta-button">
+        Sign in
+      </button>
+      <div class="cta-footer">
+        New customer?
+        <a href="#" class="box-footer">Start here.</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="foot-panel-1 flex">
+      <a href="#">Back to top</a>
+    </div>
+
+    <div class="foot-panel-2 flex">
+      <div class="footer-col">
+        Get to Know Us
+        <ul>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>About Amazon</li>
+          <li>Investor Relation</li>
+          <li>Amazon Devices</li>
+          <li>Amazon Science</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        Make Money with Us
+        <ul>
+          <li>Sell products on Amazon</li>
+          <li>Sell on Amazon</li>
+          <li>Sell apps on Amazon</li>
+          <li>Become an Affiliate</li>
+          <li>Advertise Your Products</li>
+          <li>Self-Publish with Us</li>
+          <li>Host an Amazon Hub</li>
+          <li>› See More Make Money with Us</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        Amazon Payment Products
+        <ul>
+          <li>Amazon Business Card</li>
+          <li>Shop with Points</li>
+          <li>About Amazon</li>
+          <li>Reload Your Balance</li>
+          <li>Amazon Currency Converter</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        Let Us Help You
+        <ul>
+          <li>Amazon and COVID-19</li>
+          <li>Your Account</li>
+          <li>Your Orders</li>
+          <li>Shipping Rates & Policies</li>
+          <li>Returns & Replacements</li>
+          <li>Manage Your Content and Devices</li>
+          <li>Amazon Assistant</li>
+          <li>Help</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-panel-3 flex">
+      <a href="https://amazon.com" class="footer-logo">
+      </a>
+    </div>
+
+    <div class="foot-panel-4 flex">
+      <div class="pages flex">
+        <a class="pointer">Conditions of Use</a>
+        <a class="pointer">Privacy Notice</a>
+        <a class="pointer">Your Ads Privacy Choices</a>
+      </div>
+      <div class="copyright">
+        &copy; 1996-2023, Amazon.com, Inc. or its affiliates
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/5341bb96a0.js" crossorigin="anonymous"></script>
+</body>
+</html>
