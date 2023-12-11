@@ -86,7 +86,7 @@ a {
 }
 
 .logo {
-  background-image: url('/assets/amazon_logo.png');
+  background-image: url('../assets/amazon_logo.png');
   background-size: cover;
   position: relative;
   top: 20px;
@@ -303,7 +303,7 @@ a {
 
 /* hero section */
 .hero-section {
-  background: linear-gradient(rgb(255 ,255, 255, 0), rgb(255 ,255, 255, 0.05), rgb(255 ,255, 255, 0.9), rgb(255 ,255, 255, 0.99)),url(/assets/hero_image1.jpg);
+  background: linear-gradient(rgb(255 ,255, 255, 0), rgb(255 ,255, 255, 0.05), rgb(255 ,255, 255, 0.9), rgb(255 ,255, 255, 0.99)),URL('../assets/hero_image1.jpg');
   background-size: cover;
   height: 600px;
   font-size: 0.85rem;
@@ -558,7 +558,7 @@ footer {
 }
 
 .footer-logo {
-  background-image: url('/assets/amazon_logo.png');
+  background-image: url('../assets/amazon_logo.png');
   background-size: cover;
   height: 50px;
   width: 100px;
